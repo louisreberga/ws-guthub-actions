@@ -6,4 +6,4 @@ def test_pandas():
     df = pd.DataFrame()
     df_ = pd.DataFrame()
     
-    assert df == df_
+    assert df.equals(df_)
